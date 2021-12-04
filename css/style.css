@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+body{
+    background: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section{
+   
+    width: 80%;
+    text-align: center;
+}
+
+p{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 3em;
+}
+
+.navc{
+    width: 110%;
+    height: 110%;
+}
+
+.hours{
+    font-size: 4em;
+}
+
+.white{
+    text-shadow: 
+        0 0 5px #7bacff,
+        0 0 10px #7bacff,
+        0 0 25px #7bacff,
+        0 0 40px #7bacff,
+        0 0 80px #7bacff,
+        0 0 90px #7bacff,
+        0 0 100px #7bacff;
+}
+
+
+.white.blanco{
+    color: white;
+    text-shadow:0 0 5px #000000;
+}
+
+.btn{
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1x solid transparent;
+    width: 40px;
+    background-color: black;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    margin-right: 7px;
+}
+
+
+@media only screen and (max-width: 560px){
+    p{
+        font-size: 2.5em;
+    }
+    .hours{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    p{
+        font-size: 2.3em;
+    }
+    .hours{
+        font-size: 2.5em;
+    }
+}
